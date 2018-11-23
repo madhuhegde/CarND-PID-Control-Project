@@ -10,12 +10,14 @@ public:
   double i_error;
   double d_error;
 
+  int first_update;
   /*
   * Coefficients
   */ 
   double Kp;
   double Ki;
   double Kd;
+    
 
   /*
   * Constructor
